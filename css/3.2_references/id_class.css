@@ -1,0 +1,17 @@
+#main{
+    font-family: monospace;
+    font-size: medium;
+    color: blue;
+}
+
+.paco, .test{
+    font-size: 30px;   
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}

@@ -1,0 +1,28 @@
+p, li{
+    /*TODOS los párrafos y todos los elementos li tendrán estos estilos*/
+    background: #012282;
+    color: rgb(172, 182, 252);
+}
+
+header p{
+    /*El elemento p que está dentro del elemento header tendrá estos estilos*/
+    background: violet;
+    color: red;
+}
+
+section > p {
+    /*Que p sea hijo de section*/
+    background-color: pink;
+    color: chocolate;
+    font-size: 20px;
+}
+
+h3 + li + li{
+    /* Si hay un li después de un h3 se le aplica este estilo */
+    background-color: black;
+}
+
+h2 ~ li{
+    /* Todos los elementos li que se encuentran después de h2 tendrán este estilo */
+    background-color: yellow;
+}
